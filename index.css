@@ -285,6 +285,10 @@ code {
 
 /* ---------- LOG SECTION ---------- */
 
+#errorReport{
+  padding: 12px 0 0 12px;
+  color: red !important;
+}
 .exec_button,
 .reload_button{
   position: relative;
