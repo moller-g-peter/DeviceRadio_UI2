@@ -109,41 +109,14 @@ $(function() {
 });
 
 
-var buttonBoolean = true;
 
-function excButton(){
 
-  if (buttonBoolean === true){
-      $('.exe_button_default').hide();
-      $('.exe_button_1').fadeIn(700, function(){
-        $('.exe_button_1').fadeOut(700);
-        cogAnimation2();
-      });
-    function cogAnimation2(){
-      $('.exe_button_2').fadeIn(700, function(){
-        $('.exe_button_2').fadeOut(700);
-        cogAnimation3();
-      });
-    }
-    function cogAnimation3(){
-      $('.exe_button_3').fadeIn(700, function(){
-        $('.exe_button_3').fadeOut(700);
-        excButton();
-      });
-    }
-  } else {
-    buttonBoolean = true;
-  }
-}
 
-$('.desktopIDE').click(function(){
-  buttonBoolean = false;
-  $('.exe_button_default').show();
-});
 
-$('.reload_button').click(function(){
-  $('.reload_exe').show();
-});
+
+
+
+
 
 
 
