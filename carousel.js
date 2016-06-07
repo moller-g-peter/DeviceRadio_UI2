@@ -108,6 +108,7 @@ $(function() {
   });
 });
 
+console.log("outside button");
 
 
 
