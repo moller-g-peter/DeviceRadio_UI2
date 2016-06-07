@@ -93,8 +93,9 @@ $('.col-xs-4[data-slide-to="'+currentIndex+'"]').addClass('active');
 
 
 // Create the orange background(focused div)
-$(function() {
+
   $("body").click(function(e) {
+      // alert("clicked");
     if (e.target.id == "chatlioWidgetPlaceholder" || $(e.target).parents("#chatlioWidgetPlaceholder").size()) {
       $('.desktopChat').css('background-color', '#f95c3d');
       $('.desktopIDE').css('background-color', '#10232e');
@@ -106,7 +107,7 @@ $(function() {
       // alert("Outside chatlioWidgetPlaceholder");
     }
   });
-});
+
 
 console.log("outside button");
 
