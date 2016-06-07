@@ -189,6 +189,7 @@ pre {
 }
 pre > code{
   color: #C1C1C1 !important;
+  padding: 1px !important;
 }
 
 /* this wrapper is causing white space when swiping on mobile phone */
