@@ -262,20 +262,20 @@ code {
   color: #6c71c4;
 }
 .ace-tm{
-  background-color: #1c313e !important;
-  color: white !important;
+  /*background-color: #1c313e !important;*/
+  /*color: white !important;*/
 }
 .ace_cursor{
-  color: white !important;
+  /*color: white !important;*/
 }
 .ace_gutter{
-  background-color: #77848c !important;
+  /*background-color: #77848c !important;*/
 }
 .ace_gutter-active-line{
-  background-color: #1C313E;
+  /*background-color: #1C313E;*/
 }
 .ace_active-line{
-  background: rgba(0, 0, 0, 0.2) !important;
+  /*background: rgba(0, 0, 0, 0.2) !important;*/
 }
 
 
