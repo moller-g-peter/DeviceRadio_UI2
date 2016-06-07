@@ -262,8 +262,8 @@ code {
   color: #6c71c4;
 }
 .ace-tm{
-  /*background-color: #1c313e !important;*/
-  /*color: white !important;*/
+  background-color: #1c313e !important;
+  color: white !important;
 }
 .ace_cursor{
   /*color: white !important;*/
